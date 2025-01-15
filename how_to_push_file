@@ -28,3 +28,5 @@ git branch -M main
 git push -u origin main
 
 git remote set-url origin https://<token>@github.com/<username>/<repo>
+git switch name 
+# switch the branch name
