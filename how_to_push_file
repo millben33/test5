@@ -2,6 +2,9 @@
 #https://www.youtube.com/watch?v=iLrywUfs7yU
 #use normal user in ubuntu, millben11@hotmail.com  ,"A55...."
 # setting , develop setting to get token
+
+#error: cannot update the ref 'refs/remotes/origin/main': unable to append to '.git/logs/refs/remotes/origin/main': Permission denied
+# change the log directory to own:group to ben
 git init
 git add .
 git commit -m "Add existing file"
