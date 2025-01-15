@@ -1,5 +1,7 @@
 
 #https://www.youtube.com/watch?v=iLrywUfs7yU
+#use normal user in ubuntu, millben11@hotmail.com  ,"A55...."
+# setting , develop setting to get token
 git init
 git add .
 git commit -m "Add existing file"
