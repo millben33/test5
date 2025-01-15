@@ -1,0 +1,25 @@
+
+#https://www.youtube.com/watch?v=iLrywUfs7yU
+git init
+git add .
+git commit -m "Add existing file"
+
+
+git branch -M main
+
+git remote add origin https://github.com/yourusername/your-repo-name.git
+
+
+git config --global user.name "Your Name"
+
+git config --global user.email youremail@domain.com
+
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git branch -M main
+git push -u origin main
+
+git remote set-url origin https://<token>@github.com/<username>/<repo>
